@@ -68,7 +68,7 @@ This script filters data in order to put at value 0 all the EMG values for the r
 - check in the plots the values of the EMG channel **sum**
 - decide limit thresholds: everything below a specific value will be put equal to 0.
 
-For instance, consider the sum of EMG signals for one subject: ![EMG sum, one subject](/home/abel/projects/ros_ws/src/devices/myo/cnr_myo/myo_recognition/src/img2.png  "EMG sum, one subject")
+For instance, consider the sum of EMG signals for one subject: ![EMG sum, one subject](src/img2.png  "EMG sum, one subject")
 To remove the noise in the rest phases, add in the code the following lines (aka. "filters"):
 ```
 #Subject 4
@@ -84,7 +84,7 @@ To remove the noise in the rest phases, add in the code the following lines (aka
 This is equal to 5 filters. Consdider the first filter: everything between samples [0,1637] whose values are below 850 are put to 0. Repeat for every acquisition sample range  desired.
 
 The final results (with all 8 EMG channels displayed) is:
-![EMG channels filtered](/home/abel/projects/ros_ws/src/devices/myo/cnr_myo/myo_recognition/src/img1.png  "EMG channels filtered")
+![EMG channels filtered](src/img1.png  "EMG channels filtered")
 
 You can add as many subjects you want, but be carefull to follow the acquisition rules specified previously. If everything is done correctly, some **dataset** files with *train, validation and test* data are automatically generated in **myo_recognition/src/Dataset**. This will be used in the next script to train your CNN.
 
