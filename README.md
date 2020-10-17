@@ -1,6 +1,6 @@
 # Overview
 
-This project provides sereral Python scripts to:
+This project provides multiple Python scripts to:
 
 - Collect EMG data from a Myo armband
 - Preprocess EMG data and create a dataset of EMG image, according to the mehotd described in the paper [On the Use of Deeper CNNs in Hand Gesture Recognition Based on sEMG Signals](https://ieeexplore.ieee.org/abstract/document/8900709). A related GitHub repository is available at: [MyoUP_dataset](https://github.com/tsagkas/MyoUP_dataset).
