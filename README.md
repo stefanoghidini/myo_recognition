@@ -3,8 +3,8 @@
 This project provides multiple Python scripts to:
 
 - Collect EMG data from a Myo armband
-- Preprocess EMG data and create a dataset of EMG image, according to the mehotd described in the paper [On the Use of Deeper CNNs in Hand Gesture Recognition Based on sEMG Signals](https://ieeexplore.ieee.org/abstract/document/8900709). A related GitHub repository is available at: [MyoUP_dataset](https://github.com/tsagkas/MyoUP_dataset).
-- Train an ANN based on the dataset created, the structure of the ANN is a CNN with a custom architecture, similart to the one defined in the previous repository.
+- Preprocess EMG data and create a dataset of EMG image, according to the method described in the paper [On the Use of Deeper CNNs in Hand Gesture Recognition Based on sEMG Signals](https://ieeexplore.ieee.org/abstract/document/8900709). A related GitHub repository is available at: [MyoUP_dataset](https://github.com/tsagkas/MyoUP_dataset).
+- Train an ANN based on the created dataset, the structure of the ANN is a CNN with a custom architecture, similar to the one defined in the previous repository.
 - Test the CNN and the classifier in a real time application.
 
 
